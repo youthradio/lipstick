@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" language="javascript">
+
+		function show(obj) {
+		document.getElementById("q1").style.visibility = "hidden";
+		document.getElementById("q2").style.visibility = "hidden";
+		document.getElementById("q3").style.visibility = "hidden";
+		document.getElementById("q4").style.visibility = "hidden";
+		document.getElementById("q5").style.visibility = "hidden";
+		document.getElementById(obj).style.visibility = "visible"; 
+		}
+
+		</script>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+		
+		<title> THE   UGLY   SIDE   OF   BEAUTY </title>
+
+		<style>
+
+			p {
+			font-family:font-family: 'Josefin Sans', sans-serif;
+			position: relative;
+			top: -16px;
+			padding-left: 9px;
+			}
+
+			.pos_fixed{
+			position:absolute;
+			top: 16px;
+			left: -240px;
+			border-style: solid
+			}
+
+			table
+			{
+			border:4px solid black;
+			width:480px;
+			height: 320px;
+			}
+
+			h1
+			{
+			color:gray;
+			text-align:center;
+			}
+
+			div{
+			border:1px;
+			}
+
+			.yr_logo{
+				height: 50px;
+				position: absolute;
+				top: 455px;
+				left: 20px;
+			}
+
+			.inno{
+				height: 50px;
+				position: absolute;
+				top: 455px;
+				left: 250px;
+			}
+
+			.header_sec{
+				height: 40px;
+				margin: 20px;
+			}
+
+			.body_sec{
+				position: relative;
+				top: -40px;
+			}
+
+			.end_sec{
+				height: 5px;
+			}
+
+			.intro{
+				padding: 1px;
+				position: relative;
+				top: 10px;
+			}
+
+
+			.header-text{
+				position: absolute; 
+				top: 15px;
+			}
+
+			.box{
+				visibility: hidden;
+				text-align:text-bottom;
+				padding:1px; 
+				width:230px
+			}
+
+			.header-box{
+				font-family: 'Josefin Sans' sans-serif;
+				width:100%;
+				height:30px;
+				background-color:gray;
+			}
+
+		</style>
+	</head>
+
+
+	<body>
+		<table>
+
+
+		<tr class="header_sec">
+			<td colspan=2 style="font-family: 'Josefin Sans', sans-serif; align:center;"> 
+				<h1> UGLY   SIDE   OF   BEAUTY </h1> 
+				<p> There may be a hidden cost to cosmetics. Click through below to see the toxic elements found in many beauty products. </p>
+			</td>
+
+		</tr>
+
+		<tr>
+			<td class="body_sec">
+				<img id="Image-Maps_2201309111603276" src="http://i1343.photobucket.com/albums/o790/ashalaura/facewithmarker_zpsc3d382fc.png" usemap="#Image-Maps_2201309111603276" border="0" width="216" height="362" alt="" valign="top" />
+
+				<map id="_Image-Maps_2201309111603276" name="Image-Maps_2201309111603276">
+
+				<area shape="rect" coords="51,100,101,150" href="#" onClick="show('q1')" alt="eyes" title="eyes"      />
+				 
+				<area shape="rect" coords="5,224,55,274" href="#" onClick="show('q2')" alt="lips" title="lips"   />
+				 
+				<area shape="rect" coords="96,203,146,253" href="#" onClick="show('q3')" alt="nails" title="nails"    />
+				 
+				<area shape="rect" coords="139,46,189,96" href="#" onClick="show('q4')" alt="hair" title="hair"    />
+				 
+				<area shape="rect" coords="26,297,76,347" href="#" onClick="show('q5')" alt="scent" title="scent"    />
+				 
+				</map>
+
+			</td>
+
+			<td class="body_sec">
+				<div id="q1" class="pos_fixed box">
+
+				<div class="header-box"><strong class="header-text "> EYE SHADOW </strong></div>
+					 <p> Sometimes contains talc, which is considered safe but can be contaminated with asbestos, a known carcinogen. <q>It is essential to select talc mining sites carefully and take steps to purify the ore sufficiently,</q>says the <a href="http://www.fda.gov/Cosmetics/ProductandIngredientSafety/SelectedCosmeticIngredients/ucm293184">FDA</a>. </p> </div>
+
+
+				<div id="q2"  class="pos_fixed box">
+				<div class="header-box" ><strong class="header-text"> LIPSTICK </strong></div>
+					<p>Lips: can contain toxins linked to cancer and neurological damage in young children, when ingested in high quantities, according to a recent study from UC Berkeley. </p> </div>
+
+				<div id="q3" class="pos_fixed box">
+				<div class="header-box"><strong class="header-text"> NAIL POLISH </strong></div>
+					<p> Nails: According to the US Occupational Safety and Health Association, working in a nail salon can expose manicurists to a variety of chemicals. Especially with poor ventilation, those chemicals can make workers sick. Three nail product ingredients in particular--toluene, formaldehyde, and dibutyl phthalate--are sometimes called the <q>toxic trio.</q></p> </div>
+					
+				<div id="q4" class="pos_fixed box">
+				<div class="header-box"> <strong class="header-text"> HAIR STRENGTHENERS </strong></div>
+					<p> Hair straighteners: can contain formaldehyde. In high concentrations, that chemical has been linked to irritations, lesions, genetic mutations, and even some cancers, according to the National Research Council. </p> </div> 
+					
+				<div id="q5" class="pos_fixed box">
+				<div class="header-box"> <strong class="header-text"> FRAGRANCE </strong></div>
+					<p> Fragrance: can contain chemicals associated with hormone disruptions and allergic reactions, according to a report from the Campaign for Safe Cosmetics and the Environmental Working Group. The report goes on to say, these chemicals do not always appear on the label and have not always been assessed for safety. </p> </div> 
+
+			</td>
+		</tr>
+		</table>
+	</body>
+	<img src="https://youthradio.org/wp-content/themes/youthradio/library/images/s/footer-logo.png" class="yr_logo" />
+
+	<p class="inno"> a project of The Innovation Lab </p>
+</html>
